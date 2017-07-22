@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UltraCozy Coffeehouse</string>
+    <string name="DescriptionTitle">Description:</string>
+    <string name="StoreInfoTitle">Store Information:</string>
+    <string name="HoursTitle">Hours of Operation:</string>
+    <string name="DescriptionContent">UltraCozy Coffeehouse began because somewhere along the line, coffee companies that had once been great, no longer were, and no one
+    seemed to notice. Taste expectations everywhere dropped, even though the industry was growing. UltraCozy knows the secret to outstanding taste and they bring to the
+    table an amazing array of recipes and the unparalleled skill of their roastmaster. </string>
+    <string name="StoreInfoContent">Address: 472 1st Ave N, Seattle, WA 98109\n\nPhone Number: +1 206–388-3500</string>
+    <string name="HoursContent">Monday: 6 AM - 8 PM\nTuesday: 6 AM - 8 PM\nWednesday: 6 AM - 8 PM\nThursday: 6 AM - 8 PM
+        \nFriday: 6 AM - 9 PM\nSaturday: 7 AM - 9 PM\nSunday: 7 AM - 7 PM</string>
+
+</resources>

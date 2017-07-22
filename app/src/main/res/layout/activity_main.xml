@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#5D4037"
+        tools:context="me.rayanalkhelaiwi.firstprojectcoffeehouse.MainActivity">
+
+        <ImageView
+            android:id="@+id/coffeehousetext"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/coffeehouse"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/DescriptionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#3E2723"
+            android:padding="5dp"
+            android:text="@string/DescriptionTitle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/DescriptionContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DescriptionContent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:textColor="#BCAAA4"
+            android:fontFamily="monospace"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:background="#3E2723" />
+
+        <TextView
+            android:id="@+id/StoreInfoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#3E2723"
+            android:padding="5dp"
+            android:text="@string/StoreInfoTitle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/StoreInfoContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/StoreInfoContent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:textColor="#BCAAA4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:fontFamily="monospace"
+            android:background="#3E2723" />
+
+        <TextView
+            android:id="@+id/HoursTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#3E2723"
+            android:padding="5dp"
+            android:text="@string/HoursTitle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/HoursContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HoursContent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:textColor="#BCAAA4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:fontFamily="monospace"
+            android:background="#3E2723" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/TwitterIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/twitterlogo" />
+
+            <ImageView
+                android:id="@+id/FacebookIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toStartOf="@id/TwitterIcon"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/facebooklogo" />
+
+            <ImageView
+                android:id="@+id/SnapIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@id/TwitterIcon"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/snaplogo" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
